@@ -2,7 +2,7 @@
 
 A YOLO11 detector that finds a drone landing pad from a ZED stereo camera and runs in real time **on an NVIDIA Jetson Orin Nano with TensorRT**. Built for the autonomous delivery drone at ARC Purdue, where the existing AprilTag-based landing only worked up close.
 
-![Live TensorRT detection on the Jetson](images/live_jetson.jpeg)
+![Live TensorRT detection on the Jetson](live_jetson.jpeg)
 
 ## Results
 
@@ -13,7 +13,7 @@ A YOLO11 detector that finds a drone landing pad from a ZED stereo camera and ru
 | AprilTag (OpenCV, 36h11) | 2 m |
 | **YOLO11n (this project)** | **5 m (2.5× farther)** |
 
-![YOLO finds the pad where AprilTag cannot](images/yolo_vs_apriltag.jpeg)
+![YOLO finds the pad where AprilTag cannot](yolo_vs_apriltag.jpeg)
 
 **Model accuracy** (46 held-out validation images)
 
