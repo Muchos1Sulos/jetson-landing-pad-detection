@@ -1,0 +1,19 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Data (too big for GitHub; the labeled dataset lives on Roboflow)
+dataset/
+pad_dataset/
+
+# Training output and model files
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Misc
+.DS_Store
+.idea/
+screenshot_*.jpg
